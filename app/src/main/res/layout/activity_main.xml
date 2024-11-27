@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rejestruj konto"
+        android:textSize="24dp"
+        android:textColor="@color/white"
+        android:background="#008080"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Podaj e-mail: "
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:id="@+id/Mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Powtórz hasło"
+        android:textSize="16dp"
+        android:inputType="textEmailAddress"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Podaj hasło: "
+        android:textSize="17dp"
+        />
+
+    <EditText
+        android:id="@+id/Pass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wpisz hasło"
+        android:textSize="16dp"
+        android:inputType="textPassword"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powtórz hasło: "
+        android:textSize="18dp"
+        />
+
+    <EditText
+        android:id="@+id/Pass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Powtórz hasło"
+        android:textSize="16dp"
+        android:inputType="textPassword"
+        />
+
+
+    <Button
+        android:id="@+id/Przycisk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zatwierdź"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/Comm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Autor: Brajan Głowacki"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
